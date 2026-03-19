@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Alert, Modal, View, ImageBackground, TouchableOpacity, StyleSheet, Text } from 'react-native';
+import { Icon } from 'react-native-vector-icons/MaterialIcons';
+
 
 export default function App() {
   return (
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
 const ViewExemplo = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0d1cf7',
+    backgroundColor: '#0084ff',
     alignItems: 'center',
     justifyContent: 'center',
   },
